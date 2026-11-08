@@ -33,7 +33,7 @@ func main() {
     //-h flag
     } else if len(os.Args) > 1 {
         if os.Args[1] == "-h" {
-            fmt.Println("backup version: bu <version>\nrevert version: re <version>")
+            fmt.Println("backup: bu <version>\nrevert: re <version>")
         }
     }
 }
